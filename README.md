@@ -12,4 +12,4 @@ testcases folder contains the file which will use our functionality.
 How to Use :
 stay in testcases folder, make the class for that you want to generate Setter/Getter and compile your code so that class file can be generated. Now compile.bat file contains all the necessary commands so you have to simply run it and your desired code will be generated in tmp.tmp file.
 
-Thank You :)
+ThankYou :)
