@@ -1,0 +1,102 @@
+public Student()
+{
+this.rollNumber=0;
+this.name="";
+this.gender='';
+this.dateOfBirth="";
+this.aadharCardNumber="";
+this.panCardNumber="";
+this.isIndian=false;
+this.marksInTenthClass=0.0;
+this.marksInTwelfthClass=0.0;
+this.totalFeesPaid=0;
+this.passOutYear=0;
+}
+public void setRollNumber(int rollNumber)
+{
+this.rollNumber=rollNumber;
+}
+public int getRollNumber()
+{
+return this.rollNumber;
+}
+public void setName(java.lang.String name)
+{
+this.name=name;
+}
+public java.lang.String getName()
+{
+return this.name;
+}
+public void setGender(char gender)
+{
+this.gender=gender;
+}
+public char getGender()
+{
+return this.gender;
+}
+public void setDateOfBirth(java.lang.String dateOfBirth)
+{
+this.dateOfBirth=dateOfBirth;
+}
+public java.lang.String getDateOfBirth()
+{
+return this.dateOfBirth;
+}
+public void setAadharCardNumber(java.lang.String aadharCardNumber)
+{
+this.aadharCardNumber=aadharCardNumber;
+}
+public java.lang.String getAadharCardNumber()
+{
+return this.aadharCardNumber;
+}
+public void setPanCardNumber(java.lang.String panCardNumber)
+{
+this.panCardNumber=panCardNumber;
+}
+public java.lang.String getPanCardNumber()
+{
+return this.panCardNumber;
+}
+public void setIsIndian(boolean isIndian)
+{
+this.isIndian=isIndian;
+}
+public boolean getIsIndian()
+{
+return this.isIndian;
+}
+public void setMarksInTenthClass(double marksInTenthClass)
+{
+this.marksInTenthClass=marksInTenthClass;
+}
+public double getMarksInTenthClass()
+{
+return this.marksInTenthClass;
+}
+public void setMarksInTwelfthClass(double marksInTwelfthClass)
+{
+this.marksInTwelfthClass=marksInTwelfthClass;
+}
+public double getMarksInTwelfthClass()
+{
+return this.marksInTwelfthClass;
+}
+public void setTotalFeesPaid(long totalFeesPaid)
+{
+this.totalFeesPaid=totalFeesPaid;
+}
+public long getTotalFeesPaid()
+{
+return this.totalFeesPaid;
+}
+public void setPassOutYear(int passOutYear)
+{
+this.passOutYear=passOutYear;
+}
+public int getPassOutYear()
+{
+return this.passOutYear;
+}
